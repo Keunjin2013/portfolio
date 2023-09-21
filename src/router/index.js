@@ -10,7 +10,7 @@ const routes = [
   },
   {
     path: '/portfolio1',
-    component: 'portfolio1',
+    component: portfolio1,
   },
 ]
 
