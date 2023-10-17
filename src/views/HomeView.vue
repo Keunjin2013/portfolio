@@ -1,44 +1,17 @@
-//2023.09.14
 <template>
   <div>
-    <div id="top">
-      <swiper class="swiper" :slides-per-view="1" :space-between="50" @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide style="background-image:url(/top1.jpg)" class="slide">
-          <div class="header">
-            명지전문대 정보통신공학과 김은진
-          </div>
-        </swiper-slide>
-        <swiper-slide style="background-image:url(/top2.jpg)" class="slide">
-          <div class="header">
-            명지전문대 정보통신공학과 김은진
-          </div>
-        </swiper-slide>
-        <swiper-slide style="background-image:url(/top3.jpg)" class="slide">
-          <div class="header">
-            명지전문대 정보통신공학과 김은진
-          </div>
-        </swiper-slide>
-      </swiper>
+    <div class="top">
+    </div>
+    <div class=" myImgDiv">
+        <img class="myImg" src="@/assets/증명사진.jpeg" />
     </div>
   </div>
-
-  <div id="portfilio">
-    <div class="header">포트폴리오</div>
-    <div class="list">
-      <div class="item" @click="movePage('/portfolio1')" data-aos="zoom-out-right"
-        style="background-image:url(/top2.jpg)">
-      </div>
-      <div class="item" data-aos="zoom-out-left" style="background-image:url(/top2.jpg)"></div>
-      <div class="item" data-aos="fade-up" data-aos-duration="3000" style="background-image:url(/top2.jpg)"></div>
-      <div class="item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
-        style="background-image:url(/top2.jpg)"></div>
-      <!-- 이거 예쁨 data-aos -->
-      <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
-        style="background-image:url(/top2.jpg)"></div>
-      <!-- 이거 예쁨 data-aos -->
-      <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="5000" data-aos-offset="0"
-        style=" background-image:url(/top2.jpg)"></div>
+  <div id="aboutMe">
+    <div class="title">
+      <h2>한 걸음 더 나아가는 서비스 기획자</h2>
+      <h4></h4>
     </div>
+    
   </div>
 </template>
 
@@ -90,51 +63,22 @@ export default defineComponent({
 });
 </script>
 
-<style lang="less">
-#top {
-  height: 100vh;
-
-  .swiper {
-    height: 100vh;
-
-    .slide {
-      background-position: center center;
-      background-size: cover;
-
-      .header {
-        font-size: 60px;
-        font-weight: 900;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-    }
-  }
+<style>
+.top {
+  width: 100%;
+  height: 300px;
+  background-color: #FFF0D6;
 }
 
-#portfilio {
-  .header {
-    text-align: center;
-    font-size: 40px;
-  }
-
-  width: 1000px;
-  margin: 0 auto;
-
-  .list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-
-    .item {
-      width: 300px;
-      background-position: center center;
-      background-size: cover;
-      aspect-ratio: 1/1;
-      border-radius: 10px;
-
-    }
-  }
+.myImgDiv {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: -150px;
 }
+
+.myImg {
+  width: 200px;
+  height: 250px;
+}
+
 </style>
