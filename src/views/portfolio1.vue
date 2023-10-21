@@ -58,7 +58,7 @@
               <a class="tag"># 개발</a>
               <div class="project">
                 <div>프로젝트 기간 : 2022.08.22 - 2022.08.25</div>
-                <div>참여인원 : 김은진</div>
+                <div>참여인원 : 김은진 외 2명</div>
                 <div>특이사항 : 최우수상 수상</div>
               </div>
             </div>
@@ -73,7 +73,7 @@
               <a class="tag"># 개발</a>
               <div class="project">
                 <div>프로젝트 기간 : 2022.04.12 - 2022.11.30</div>
-                <div>참여인원 : 김은진</div>
+                <div>참여인원 : 김은진 외 2명</div>
                 <div>특이사항 : 한이음</div>
               </div>  
             </div>
@@ -174,10 +174,14 @@
                 <div class="project-detail">
                   <v-img class="projectDetail" src="~@/assets/학원관리시스템.png" />
                   <hr>
-                  <div class="projectDetailContent">
-                    👉 학원관리시스템은 어쩌구 저ㄱ쩌구
-                  </div>
                   <div class="projectDetailRole">
+                    <h3>👉 나의 역할</h3>
+                    <h4>[기획 담당]</h4>
+                    <li>프로젝트 요구사항 분석</li>
+                    <li>와이어프레임 설계</li>
+                    <li>화면설계서 작성</li>
+                  </div>
+                  <div class="projectDetailContent">
                     <h3>나의 역할</h3>
                     <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
                   </div>
@@ -225,10 +229,63 @@
                 <div class="project-detail">
                   <v-img class="projectDetail" src="~@/assets/MyDrawer.jpeg" />
                   <hr>
+                  <div class="projectDetailRole">
+                    <h3>👉 나의 역할</h3>
+                    <h4>[기획 담당]</h4>
+                    <li>프로젝트 요구사항 분석</li>
+                    <li>프로젝트 요구사항 분석</li>
+                  </div>
                   <div class="projectDetailContent">
+                    
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+          
+
+          <!-- Drawing Machine 교육 -->
+          <v-dialog v-model="project3" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">Drawing Machine 교육</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">임베디드 프로젝트, 대외활동</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/드로잉머신.jpeg" />
+                  <hr>
+                  <div class="projectDetailRole">
                     👉 학원관리시스템은 어쩌구 저ㄱ쩌구
                   </div>
-                  <div class="projectDetailRole">
+                  <div class="projectDetailContent">
                     <h3>나의 역할</h3>
                     <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
                   </div>
@@ -237,6 +294,255 @@
             </v-card>
           </v-dialog>
 
+          <!-- 스마트 팩토리 -->
+          <v-dialog v-model="project4" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">스마트 팩토리</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">웹 프로젝트, 임베디드 프로젝트, 대외활동</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/스마트팩토리.png" />
+                  <hr>
+                  <div class="projectDetailRole">
+                    👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                  </div>
+                  <div class="projectDetailContent">
+                    <h3>나의 역할</h3>
+                    <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+
+          <!-- 사당동 머물고 싶은 거리 디지털 트랜스포메이션 -->
+          <v-dialog v-model="project5" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">사당동 머물고 싶은 거리 디지털 트랜스포메이션</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">캡스톤 프로젝트</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/사당동.png" />
+                  <hr>
+                  <div class="projectDetailRole">
+                    👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                  </div>
+                  <div class="projectDetailContent">
+                    <h3>나의 역할</h3>
+                    <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+
+          <!-- 지역 특색 김치를 체험하는 김장 프로그램 -->
+          <v-dialog v-model="project6" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">지역 특색 김치를 체험하는 김장 프로그램</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">캡스톤 프로젝트</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/김장프로그램.png" />
+                  <hr>
+                  <div class="projectDetailRole">
+                    👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                  </div>
+                  <div class="projectDetailContent">
+                    <h3>나의 역할</h3>
+                    <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+
+          <!-- 떠나요 한국으로 -->
+          <v-dialog v-model="project7" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">떠나요 한국으로</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">웹 프로젝트</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/떠나요한국으로.jpeg" />
+                  <hr>
+                  <div class="projectDetailRole">
+                    👉 여기에 나의 역할을 li를 활용해서 정리하고
+                  </div>
+                  <div class="projectDetailContent">
+                    <h3>나의 역할</h3>
+                    <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+
+          <!-- 명전대학보 학보볼래? -->
+          <v-dialog v-model="project8" class="dialog">
+            <v-card class="item-dialog" :variant="outlined">
+              <v-card-title>
+                <h2 class="project-title">명전대학보 학보볼래?</h2>
+              </v-card-title>
+              <v-card-text>
+                <!-- 프로젝트 URL -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                      <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <!-- 프로젝트 형식 -->
+                <v-row>
+                  <v-col cols="3">
+                    <div>
+                      <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                    </div>
+                  </v-col>
+                  <v-col cols="8">
+                    <div class="project">
+                        <a class="projectTag">웹 프로젝트</a>
+                    </div>
+                  </v-col>
+                </v-row>
+                <hr>
+                <!-- 프로젝트 내용 -->
+                <div class="project-detail">
+                  <v-img class="projectDetail" src="~@/assets/학보볼래.jpeg" />
+                  <hr>
+                  <div class="projectDetailRole">
+                    👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                  </div>
+                  <div class="projectDetailContent">
+                    <h3>나의 역할</h3>
+                    <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-dialog>
 
 
         </div>
@@ -408,7 +714,7 @@ text-decoration: none;
 color: #000;
 }
 
-.projectDetailContent {
+.projectDetailRole {
 background-color: #F2F2F2;
 padding: 2%;
 margin-bottom: 2%;

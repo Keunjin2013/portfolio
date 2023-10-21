@@ -91,15 +91,6 @@
       </div>
     </div>
 
-    <div class="study">
-      <h2 class="study-title">📚 개인 스터디</h2>
-      <hr>
-      <div class="study-content">
-        <a>IT 관련 뉴스 기사를 읽고 가볍게 나의 생각을 정리해보는 시간, 기획을 공부하며 느끼는 생각들, 기획 공부하며 간단히 정리 등과 같이 스스로 진행하고 있는 기획 스터디를 정리한 페이지입니다.</a>
-        <li><a href="https://www.notion.so/abc64adb35e948c396efa60e04a10287?pvs=4">👣 기획자로서의 한 걸음</a></li>
-      </div>
-    </div>
-
   </div>
 </template>
 
@@ -237,10 +228,6 @@ a {
 }
 
 .activity {
-  margin-bottom: 5%;
-}
-
-.study {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 </style>
