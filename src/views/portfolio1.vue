@@ -3,7 +3,7 @@
         <div class="top">
         </div>
         <div class=" myImgDiv">
-            <img class="myImg" src="@/assets/증명사진.jpeg" />
+            <v-img class="myImg" src="~@/assets/증명사진.jpeg" />
         </div>
     </div>
     <div class="aboutMe">
@@ -22,9 +22,9 @@
           <hr>
           <div class="portfolio-content">
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/학원관리시스템.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project1)">
+                <v-img class="portfolioImg" src="~@/assets/학원관리시스템.png" />
                 <h2>학원관리시스템</h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -35,9 +35,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/MyDrawer.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project2)">
+                <v-img class="portfolioImg" src="~@/assets/MyDrawer.jpeg"/>
                 <h2>My Drawer</h2>
                 <a class="tag"># 개인프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -49,9 +49,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/드로잉머신.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project3)">
+                <v-img class="portfolioImg" src="~@/assets/드로잉머신.jpeg" />
                 <h2>Drawing Machine 교육</h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -64,9 +64,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/스마트팩토리.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project4)">
+                <v-img class="portfolioImg" src="~@/assets/스마트팩토리.png" />
                 <h2>스마트 팩토리 </h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -79,9 +79,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/사당동.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project5)">
+                <v-img class="portfolioImg" src="~@/assets/사당동.png" />
                 <h2>사당동 머물고 싶은 거리 디지털 트랜스포메이션</h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -94,9 +94,9 @@
             </div>
 
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/김장프로그램.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project6)">
+                <v-img class="portfolioImg" src="~@/assets/김장프로그램.png" />
                 <h2>지역 특색 김치를 체험하는 김장 프로그램</h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -107,9 +107,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/떠나요한국으로.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project7)">
+                <v-img class="portfolioImg" src="~@/assets/떠나요한국으로.jpeg" />
                 <h2>떠나요 한국으로</h2>
                 <a class="tag"># 팀프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -121,9 +121,9 @@
               </div>
             </div>
 
-            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0" style="background-image:url(/top2.jpg)">
-              <div class="portfolio-detail">
-                <img class="portfolioImg" src="@/assets/학보볼래.png" />
+            <div class="item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+              <div class="portfolio-detail" @click="showDialog(project8)">
+                <v-img class="portfolioImg" src="~@/assets/학보볼래.jpeg" />
                 <h2>명전대학보 학보볼래?</h2>
                 <a class="tag"># 개인프로젝트</a>
                 <a class="tag"># 기획</a>
@@ -135,6 +135,110 @@
               </div>
             </div>
 
+            <!-- 모달창 -->
+            <!-- 학원관리시스템 -->
+            <v-dialog v-model="dialog.project1" class="dialog">
+              <v-card class="item-dialog" :variant="outlined">
+                <v-card-title>
+                  <h2 class="project-title">학원관리시스템</h2>
+                </v-card-title>
+                <v-card-text>
+                  <!-- 프로젝트 URL -->
+                  <v-row>
+                    <v-col cols="3">
+                      <div>
+                        <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                      </div>
+                    </v-col>
+                    <v-col cols="8">
+                      <div class="project">
+                        <a href="https://github.com/AcaTechProject" class="href">https://github.com/AcaTechProject</a>
+                      </div>
+                    </v-col>
+                  </v-row>
+                  <!-- 프로젝트 형식 -->
+                  <v-row>
+                    <v-col cols="3">
+                      <div>
+                        <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                      </div>
+                    </v-col>
+                    <v-col cols="8">
+                      <div class="project">
+                          <a class="projectTag">웹 프로젝트</a>
+                      </div>
+                    </v-col>
+                  </v-row>
+                  <hr>
+                  <!-- 프로젝트 내용 -->
+                  <div class="project-detail">
+                    <v-img class="projectDetail" src="~@/assets/학원관리시스템.png" />
+                    <hr>
+                    <div class="projectDetailContent">
+                      👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                    </div>
+                    <div class="projectDetailRole">
+                      <h3>나의 역할</h3>
+                      <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                    </div>
+                  </div>
+                </v-card-text>
+              </v-card>
+            </v-dialog>
+
+
+            <!-- My Drawer -->
+            <v-dialog v-model="dialog.project2" class="dialog">
+              <v-card class="item-dialog" :variant="outlined">
+                <v-card-title>
+                  <h2 class="project-title">My Drawer</h2>
+                </v-card-title>
+                <v-card-text>
+                  <!-- 프로젝트 URL -->
+                  <!-- <v-row>
+                    <v-col cols="3">
+                      <div>
+                        <a class="url"><i class="fa-solid fa-link"> URL</i></a>
+                      </div>
+                    </v-col>
+                    <v-col cols="8">
+                      <div class="project">
+                        <a href="" class="href">https://github.com/AcaTechProject</a>
+                      </div>
+                    </v-col>
+                  </v-row> -->
+                  <!-- 프로젝트 형식 -->
+                  <v-row>
+                    <v-col cols="3">
+                      <div>
+                        <a><i class="fa-solid fa-file"> 프로젝트형식</i></a>
+                      </div>
+                    </v-col>
+                    <v-col cols="8">
+                      <div class="project">
+                          <a class="projectTag">웹 프로젝트</a>
+                      </div>
+                    </v-col>
+                  </v-row>
+                  <hr>
+                  <!-- 프로젝트 내용 -->
+                  <div class="project-detail">
+                    <v-img class="projectDetail" src="~@/assets/MyDrawer.jpeg" />
+                    <hr>
+                    <div class="projectDetailContent">
+                      👉 학원관리시스템은 어쩌구 저ㄱ쩌구
+                    </div>
+                    <div class="projectDetailRole">
+                      <h3>나의 역할</h3>
+                      <li>내가 무엇을 했는지 자세히 써보도록 하여라.</li>
+                    </div>
+                  </div>
+                </v-card-text>
+              </v-card>
+            </v-dialog>
+
+
+
           </div>
         </div>
 
@@ -143,12 +247,26 @@
 
 <script>
 import aos from "aos";
+import { VDialog } from 'vuetify/lib';
 
 
 export default {
+  components: {
+    VDialog,
+  },
   data() {
       return {
         activeMenuItem: 'portfolio',
+        dialog: {
+          project1: false,
+          project2: false,
+          project3: false,
+          project4: false,
+          project5: false,
+          project6: false,
+          project7: false,
+          project8: false,
+        },
       };
   },
   mounted() {
@@ -161,7 +279,10 @@ export default {
     },
     menu_click(item) {
              this.activeMenuItem = item;
-     }
+     },
+    showDialog(projectKey) {
+      this.dialog[projectKey] = true;
+    },
   },
 }
 </script>
@@ -229,7 +350,7 @@ hr {
 
 .portfolioImg {
   width: 100%;
-  height: 250px;
+  height: 100%;
 }
 
 .portfolio-detail {
@@ -246,8 +367,35 @@ hr {
   margin-bottom: 1%;
 }
 
-.project {
-  margin-top: 2%;
+.dialog {
+  width: 70%;
+  height: 90%;
 }
 
+.item-dialog {
+  padding: 10%;
+}
+
+.projectDetail {
+  justify-items: center;
+}
+
+.project-title {
+  color: #D9A384;
+}
+
+i {
+  color: #D9A384;
+}
+
+.href {
+  text-decoration: none;
+  color: #000;
+}
+
+.projectDetailContent {
+  background-color: #F2F2F2;
+  padding: 2%;
+  margin-bottom: 2%;
+}
 </style>

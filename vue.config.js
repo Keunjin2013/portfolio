@@ -7,4 +7,10 @@ module.exports = defineConfig({
   lintOnSave: false,
   outputDir: path.resolve(__dirname, "./docs"),
   publicPath: "/portfolio/",
+
+  pluginOptions: {
+    vuetify: {
+			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+		}
+  }
 })

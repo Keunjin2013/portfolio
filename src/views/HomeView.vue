@@ -3,7 +3,7 @@
     <div class="top">
     </div>
     <div class=" myImgDiv">
-        <img class="myImg" src="@/assets/증명사진.jpeg" />
+      <v-img src="~@/assets/증명사진.jpeg" class="myImg" />
     </div>
   </div>
   <div class="aboutMe">
