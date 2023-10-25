@@ -9,7 +9,7 @@
   <div class="aboutMe">
     <div class="title">
       <h1>한 걸음 더 나아가는 서비스 기획자</h1>
-      <h3>조금 더 나은 서비스를 위해, 언제나 할 수 있다는 긍정적인 마인드로</h3>
+      <h3>조금 더 나은 서비스를 위해, 언제나 할 수 있다는 긍정적인 마인드로 공부하는 김은진 입니다.</h3>
     </div>
 
     <div class="menu">
@@ -17,6 +17,15 @@
       <router-link to="/portfolio1" class="menu-title" @click="menu_click('portfolio')" :class="{ active: activeMenuItem === 'portfolio' }">Portfolio</router-link>
     </div>
 
+    <div class="Me">
+      <h4 class="Me-title">About Me</h4>
+      <hr>
+      <div class="Me-content">
+        <a>안녕하세요. 서비스 기획자를 꿈꾸는 김은진입니다.</a>
+        <li>생년월일 : 2001.02.13 (만 22세)</li>
+        <li>취미 : 노래듣기</li>
+      </div>
+    </div>
 
     <div class="contact">
       <h4 class="contact-title">Contact</h4>
@@ -159,6 +168,17 @@ hr {
 .aboutMe {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.Me-title {
+  border-left: 3px solid #000;
+  padding: 1%;
+  color: #CE9B25;
+}
+
+.Me-content {
+  font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .contact-title {
