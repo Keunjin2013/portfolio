@@ -692,7 +692,7 @@
                 <hr>
                 <!-- 프로젝트 내용 -->
                 <div class="project-detail">
-                  <v-img class="projectDetail" src="~@/assets/김장프로그램.png" />
+                  <v-img class="projectDetail" src="~@/assets/학보볼래.jpeg" />
                   <hr>
                   <div class="projectDetailRole">
                     <h3>👉 나의 역할</h3>
